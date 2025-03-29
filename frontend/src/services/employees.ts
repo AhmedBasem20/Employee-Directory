@@ -25,6 +25,9 @@ export const createEmployee = async (employeeData: any) => {
     });
     return res.data;
   } catch (error) {
+    if (error.response?.data?.errors) {
+        return { errors: error.response.data.errors };
+      }
     throw new Error("Failed to create employee");
   }
 };
