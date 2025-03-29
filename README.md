@@ -2,7 +2,8 @@
 
 ## Overview
 A full-stack employee management system where users can log in, view employees, search, create, update, and delete employee records. The frontend is built with React (Vite, TypeScript, MUI), and the backend is developed using Express.js, Sequelize ORM, and MySQL.
-
+## App Flow
+![Alt text](image-3.png)
 ## Tech Stack
 ### Frontend:
 - **React**
